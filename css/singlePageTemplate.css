@@ -90,16 +90,15 @@ ul li:hover a {
 	text-align: center;
 	color: #000000;
 	margin-top: 4px;
-	font-weight: lighter;
-	text-transform: uppercase;
+	font-weight: normal;
 	letter-spacing: 1px;
 }
 /* About Section */
 .text_column {
-	text-align: center;
+	text-align: justify;
 	font-weight: normal;
 	line-height: 25px;
-	padding-left: 20px;
+	padding-left: 404px;
 	padding-right: 20px;
 	color: #000000;
 }
