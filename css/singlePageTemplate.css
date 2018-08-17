@@ -484,8 +484,8 @@ nav ul li {
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 140px;
-    background-color: #F9F3F2;
-    color: #2D2A2A;
+    background-color: #F5F5F5;
+    color: #424242;
     text-align: center;
     border-radius: 3px;
     padding: 2px 0;
@@ -527,7 +527,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color: #A1A1B7;
+    color: #AFAFBB;
 }
 
 /* selected link */
