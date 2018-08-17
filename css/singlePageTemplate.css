@@ -492,7 +492,7 @@ nav ul li {
     padding: 2px 0;
     position: absolute;
     z-index: 1;
-    top: -5px;
+    top: 0px;
     left: 115%;
     /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
     opacity: 0;
