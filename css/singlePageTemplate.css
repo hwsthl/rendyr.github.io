@@ -476,3 +476,42 @@ nav ul li {
 	padding-top: 0px;
 }
 }
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #F9F3F2;
+    color: #2D2A2A;
+    text-align: center;
+    border-radius: 3px;
+    padding: 2px 0;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 115%;
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #F9F3F2 transparent transparent;
+    
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
