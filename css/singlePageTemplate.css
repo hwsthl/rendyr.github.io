@@ -476,6 +476,7 @@ nav ul li {
 	padding-top: 0px;
 }
 }
+@media (min-width: 768px) {
 .tooltip {
     position: relative;
     display: inline-block;
@@ -513,6 +514,7 @@ nav ul li {
 .tooltip:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
+}
 }
 a.nounderline {text-decoration: none; }
 /* unvisited link */
