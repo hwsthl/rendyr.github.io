@@ -29,7 +29,7 @@
   "devDependencies": {
     "autoprefixer": "^8.2.0",
     "clean-css-cli": "^4.1.11",
-    "node-sass": "^4.9.4",
+    "node-sass": "^4.8.3",
     "postcss-cli": "^5.0.0",
     "rimraf": "^2.6.2"
   },
@@ -48,13 +48,5 @@
     "bulma.sass",
     "LICENSE",
     "README.md"
-  ],
-  "dependencies": {
-    "bulma": "^0.7.2"
-  },
-	"scripts": {
-  	"css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
-  	"css-watch": "npm run css-build -- --watch",
-  	"start": "npm run css-watch"
-	}
+  ]
 }
