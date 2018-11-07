@@ -1,80 +1,356 @@
-<!doctype html>
-<html lang="en-US">
+<!DOCTYPE html>
+<html lang="zxx">
+
 <head>
-<link rel="icon" href="favicon.png">
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Rendyr</title>
-<link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css">
-<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
-<script>var __adobewebfontsappname__="dreamweaver"</script>
-<script src="http://use.edgefonts.net/source-sans-pro:n2:default;abril-fatface:n4,i4:default.js" type="text/javascript"></script>
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <meta charset="utf-8">
+  <title>Rendyr</title>
+
+  
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- magnific popup -->
+  <link rel="stylesheet" href="plugins/magnific-popup/magnific-popup.css">
+  <!-- Slick Carousel -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+  <!-- themify icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!-- animate -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- Aos -->
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <!-- Stylesheets -->
+  <link href="css/style.css" rel="stylesheet">
+  
+  <!--Favicons-->
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="images/favicons/site.webmanifest">
+  <link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#000000">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
 </head>
+
 <body>
-	<style>
-		a.nounderline {text-decoration: none; }
-/* unvisited link */
-a:link {
-    color: black;
-}
+   
 
-/* visited link */
-a:visited {
-    color: black;
-}
+<!-- preloader start -->
+<div class="preloader">
+    <img src="images/preloader.gif" alt="preloader">
+</div>
+<!-- preloader end --> 
+  
+  
 
-/* mouse over link */
-a:hover {
-    color: blue;
-}
+<!-- navigation -->
+<header>
+    <!-- top header -->
+    <div class="top-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline text-lg-right text-center">
+                        <li class="list-inline-item">
+                            <a href="mailto:info@rendyr.com">info@rendyr.com</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="callto:7856916037">Call Us Now:
+                                <span class="ml-2"> 443 240 7140</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" id="searchOpen">
+                                <i class="ti-search"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- nav bar -->
+    <div class="navigation" background="ff5000">
+        <div class="container" background="ff5000">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" background="ff5000">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-/* selected link */
-a:active {
-    color: blue;
-}
-</style>
-  <section class="hero" id="hero">
-    <img src="rendyr.jpg" alt="Rendyr logo" width="201" height="71">
-    </h2>
-	  <h3><font size = "2">Product Design<br><p class="tagline">contact us at <a href="mailto:mail@rendyr.com" class="nounderline">mail@rendyr.com</a></p></h3>
-	  <h3><font size = "2"></h3>
-	   <h3><font size = "2"><i>founded in Blacksburg, Virginia in 2018</i><br><br>Founding Team:</b></h3>
-		   <p class="text_column"><font size = "2"><line-height = 25px>
-	<div style="text-align: center;">
-    <div style="display: inline-block; text-align: left;">
-        <b><div class="tooltip"><a href="mailto:kaelum@rendyr.com" class="nounderline">Kaelum Hasler</a><span class="tooltiptext">kaelum@rendyr.com</span></div></b> - <i>CEO and Product Design</i><br />
-        <b><div class="tooltip"><a href="mailto:martin@rendyr.com" class="nounderline">Martin Angst</a><span class="tooltiptext">martin@rendyr.com</span></div></b> - <i>Chief Operating Officer</i><br />
-        <b><div class="tooltip"><a href="mailto:elijah@rendyr.com" class="nounderline">Elijah Hodges</a><span class="tooltiptext">elijah@rendyr.com</span></div></b> - <i>VP of Software Engineering</i><br />
-        <b><div class="tooltip"><a href="mailto:liam@rendyr.com" class="nounderline">Liam Lawrence</a><span class="tooltiptext">liam@rendyr.com</span></div></b> - <i>VP of Hardware Engineering</i><br />
-        <b><div class="tooltip"><a href="mailto:hans@rendyr.com" class="nounderline">Hans Stahl</a><span class="tooltiptext">hans@rendyr.com</span></div></b> - <i>VP of Branding</i><br />
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="optic.html">Optic</a>
+                        </li>                 
+                        <li class="nav-item">
+                            <a class="nav-link" href="team.html">Team</a>
+                        </li>
+<!--
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                Service
+                            </a>
+                            <div class="dropdown-menu" >
+                                <a class="dropdown-item" href="service.html">Service page</a>
+                                <a class="dropdown-item" href="service-2.html">Service page-2</a>
+                                <a class="dropdown-item" href="service-single.html">Service Single</a>
+                            </div>
+                        </li>
+-->
+<!--
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                Pages
+                            </a>
+                            <div class="dropdown-menu" >
+                                <a class="dropdown-item" href="team.html">Team Page</a>
+                                <a class="dropdown-item" href="pricing.html">Pricing Page</a>
+                                <a class="dropdown-item" href="project.html">project Page</a>
+                                <a class="dropdown-item" href="faqs.html">FAQs Page</a>
+                                <a class="dropdown-item" href="project-single.html">Project Single</a>
+                                <a class="dropdown-item" href="team-single.html">Team Single</a>
+                                <a class="dropdown-item" href="404.html">404 Page</a>
+                                <a class="dropdown-item" href="signup.html">Sign Up Page</a>
+                                <a class="dropdown-item" href="login.html">Login Page</a>
+                                <a class="dropdown-item" href="comming-soon.html">Comming Soon Page</a>
+                            </div>
+                        </li>
+-->
+<!--
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                Blog
+                            </a>
+                            <div class="dropdown-menu" >
+                                <a class="dropdown-item" href="blog.html">Blog Page</a>
+                                <a class="dropdown-item" href="blog-sidebar.html">Blog with Sidebar</a>
+                                <a class="dropdown-item" href="blog-single.html">Blog Single</a>
+                            </div>
+                        </li>
+-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-primary btn-sm" href="contact.html">get in touch</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </div>
-</div></p>
-			 
-			   <h3><font size = "2"><br>Mentors:</b></h3>
-		   <p class="text_column"><font size = "2"><line-height = 25px>
-	<div style="text-align: center;">
-    <div style="display: inline-block; text-align: left;">
-        <b>Jim Flowers</b> - <i>VT Knowledgeworks</i><br />
-		<b>Jeff Mitchell</b> - <i>The Mitchell Law Firm</i><br />
+</header>
+
+<!-- Search Form -->
+<div class="search-form">
+    <a href="#" class="close" id="searchClose">
+        <i class="ti-close"></i>
+    </a>
+    <div class="container">
+        <form action="#" class="row">
+            <div class="col-lg-10 mx-auto">
+                <h3>Search Here</h3>
+                <div class="input-wrapper">
+                    <input type="text" class="form-control" name="search" id="search" placeholder="Enter Keywords..." required>
+                    <button>
+                        <i class="ti-search"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
     </div>
-		<h3><font size = "2"><p class="tagline">&nbsp;</p></h3>
-</div></p>
-			   <h3><font size = "2"><p class="tagline"><a href="https://www.instagram.com/rendyr.inc" class="nounderline">Visit our Instagram</a></p></h3>
-			   <h3><font size = "2"><p class="tagline">(Website under construction)</p></h3>
-				   <h3><font size = "2"><p class="tagline">&nbsp;</p></h3>
-				 
-		<!-- Code Written by Hans Stahl for Rendyr Inc. -->
-        <!-- RENDYR Rendyr -->
-<div style="bottom: 50px; text-align: center">
-      Copyright Rendyr Inc. 2018
+</div>
+<!-- /navigation --> 
+  
+
+    <div class="home-section">
+        <div class="video-container">
+	   <video autoplay loop>
+            <source src="loop.mp4" type="video/mp4">
+            <source src="loop.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+     <div class="overlay-desc">
+        <div class="video-text-container">
+            <ul class="video-headings">
+                <li margin-bottom= "20%">
+         <h1>Make your ideas a reality </h1> 
+                </li>
+                <li id="video-button">
+         <h2 >Rendyr Inc. is a desktop robotics company that strives to develop creative solutions to existing problems.</h2>
+                </li>
+            <li class="nav-item">
+                            <a class="nav-link btn btn-primary btn-sm" href="about.html">Learn More</a>
+                </li>
+            </ul>
+         </div>
+          </div>
+        </div>
+      </div>
+
+
+
+<!-- Footer -->    
+<!--<script src="footer.js"></script>-->
+    <!-- footer -->
+<footer class="bg-secondary">
+    <div class="py-100 border-bottom" style="border-color: #454547 !important">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="mb-5 mb-md-0 text-center text-md-left">
+                        <!-- logo -->
+                        <img class="mb-30" src="images/logo_footer.png" alt="logo">
+                        <p class="text-white mb-30">Rendyr Inc. is a desktop robotics company that works to make design easier and more accessible to everyone.</p>
+                        <!-- social icon -->
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a class="social-icon-outline" target="_blank" href="https://www.instagram.com/rendyr.inc">
+                                    <i class="ti-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="social-icon-outline" target="_blank" href="https://www.facebook.com/rendyrinc">
+                                    <i class="ti-facebook"></i>
+                                </a>
+                            </li>
+<!--
+                            <li class="list-inline-item">
+                                <a class="social-icon-outline" href="#">
+                                    <i class="ti-twitter-alt"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="social-icon-outline" href="#">
+                                    <i class="ti-youtube"></i>
+                                </a>
+                            </li>
+-->
+                        </ul>
+                    </div>
+                </div>
+                <!-- footer links -->
+                <div class="col-lg-2 col-md-4 col-6">
+                <h4 class="text-white mb-4">Quick Links</h4>
+                <ul class="footer-links">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="optic.html">Optic</a>
+                    </li>
+                    <li>
+                        <a href="kaelum.html">Kaelum</a>
+                    </li>
+                </ul>
+                </div>
+                <!-- footer links -->
+                <div class="col-lg-2 col-md-4 col-6">
+                <h4 class="transparent-text mb-4"> rendyr</h4>
+                <ul class="footer-links">
+                    <li>
+                        <a href="about.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="team.html">Team</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                </div>
+                                <!-- subscribe form -->
+                <div class="col-lg-3 col-md-12 offset-lg-1">
+                    <div class="mt-5 mt-lg-0 text-center text-md-left">
+                        <h4 class="mb-4 text-white">Subscribe</h4>
+                        <p class="text-white mb-4">Stay up to date with email notifications about our company</p>
+                        <form action="#" class="position-relative">
+                            <input type="text" class="form-control subscribe" name="subscribe" id="Subscribe" placeholder="Enter Your Email">
+                            <button class="btn-subscribe" type="submit" value="send">
+                                <i class="ti-arrow-right"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <!-- copyright -->
+    <div class="pt-4 pb-3 position-relative">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-5">
+                    <p class="text-white text-center text-md-left">
+                        
+                        <span class="text-primary">Rendyr Inc.</span> &copy; <script>document.write((new Date()).getFullYear());</script> All Right Reserved</p>
+                </div>
+<!--
+                <div class="col-lg-6 col-md-7">
+                    <ul class="list-inline text-center text-md-right">
+                        <li class="list-inline-item mx-lg-3 my-lg-0 mx-2 my-2">
+                            <a class="font-secondary text-white" href="#">Legal</a>
+                        </li>
+                        <li class="list-inline-item mx-lg-3 my-lg-0 mx-2 my-2">
+                            <a class="font-secondary text-white" href="#">Sitemap</a>
+                        </li>
+                        <li class="list-inline-item mx-lg-3 my-lg-0 mx-2 my-2">
+                            <a class="font-secondary text-white" href="#">Privacy Policy</a>
+                        </li>
+                        <li class="list-inline-item ml-lg-3 my-lg-0 ml-2 my-2 ml-0">
+                            <a class="font-secondary text-white" href="#">Terms &amp; Conditions</a>
+                        </li>
+                    </ul>
+                </div>
+-->
+            </div>
+        </div>
+        <!-- back to top -->
+        <button class="back-to-top">
+            <i class="ti-angle-up"></i>
+        </button>
+    </div>
+</footer>
+<!-- /footer --> 
+
+    
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- magnific popup -->
+<script src="plugins/magnific-popup/jquery.magnific.popup.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- mixitup filter -->
+<script src="plugins/mixitup/mixitup.min.js"></script>
+<!-- Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA"></script>
+<script  src="plugins/google-map/gmap.js"></script>
+<!-- Syo Timer -->
+<script src="plugins/syotimer/jquery.syotimer.js"></script>
+<!-- aos -->
+<script src="plugins/aos/aos.js"></script>
+<!-- Main Script -->
+<script src="js/script.js"></script>
 
 </body>
 </html>
