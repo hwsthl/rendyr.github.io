@@ -70,7 +70,7 @@ document.write('\
                 <!-- subscribe form -->\
                 <div class="col-lg-3 col-md-12 offset-lg-1">\
                     <div class="mt-5 mt-lg-0 text-center text-md-left">\
-                        <h4 class="mb-4 text-white">Subscribe Us</h4>\
+                        <h4 class="mb-4 text-white">Subscribe To Us</h4>\
                         <p class="text-white mb-4">Stay up to date with email notifications about our company.\
                         </p>\
                         <form id="email-signup" action="https://api.formbucket.com/f/buk_yxsjFkrXqUucPR6OkR95OWwj" method="post" target="_blank" class="position-relative" onsubmit="this.submit();this.reset();return false">\
