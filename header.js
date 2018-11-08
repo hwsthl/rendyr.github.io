@@ -1,30 +1,6 @@
 document.write('\
 <!-- navigation -->\
 <header>\
-    <!-- top header -->\
-    <div class="top-header">\
-        <div class="container">\
-            <div class="row">\
-                <div class="col-lg-12">\
-                    <ul class="list-inline text-lg-right text-center">\
-                        <li class="list-inline-item">\
-                            <a href="mailto:info@rendyr.com">info@rendyr.com</a>\
-                        </li>\
-                        <li class="list-inline-item">\
-                            <a href="callto:7856916037">Call Us Now:\
-                                <span class="ml-2"> 443 240 7140</span>\
-                            </a>\
-                        </li>\
-                        <li class="list-inline-item">\
-                            <a href="#" id="searchOpen">\
-                                <i class="ti-search"></i>\
-                            </a>\
-                        </li>\
-                    </ul>\
-                </div>\
-            </div>\
-        </div>\
-    </div>\
     <!-- nav bar -->\
     <div class="navigation" background="ff5000">\
         <div class="container" background="ff5000">\
